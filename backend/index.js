@@ -19,9 +19,9 @@ app.use('/api',post_route_App);
 
 mongoose
   .connect(
-    // 'mongodb+srv://virenpatadiya073@gmail.com:viren1T&P@cluster0.vvlbqs6.mongodb.net/mern-crud'
-    // 'mongodb+srv://virenpatadiya073:viren1T&P@clusterviren0.7czkwhi.mongodb.net/mern-crud'
-    'mongodb+srv://virenpatadiya073:viren1T&P@clusterviren0.7czkwhi.mongodb.net/datas1'
+    // 'mongodb+srv://virenpatadiya073@gmail.com:<password>@cluster0.vvlbqs6.mongodb.net/mern-crud'
+    // 'mongodb+srv://virenpatadiya073:<password>@clusterviren0.7czkwhi.mongodb.net/mern-crud'
+    'mongodb+srv://virenpatadiya073:<password>@clusterviren0.7czkwhi.mongodb.net/datas1'
   )
   .then(() => {
     console.log('connected to MongoDB!!');
